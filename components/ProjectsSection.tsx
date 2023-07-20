@@ -6,27 +6,27 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Halpreads Book Application",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
+      "Halpreads is a web application developed in React and Python to help people find their next book and keep track of their reading list.",
     image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+    github: "",
+    link: "",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
+    name: "Word Searcher 3000",
+    description: "Word Searcher 3000 is a Python-based command line word search game. It uses SQLAlchemy and a matrix data structure.",
     image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    github: "",
+    link: "",
   },
   {
-    name: "Kator Family Photos",
+    name: "Empty",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
+      "Empty",
     image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+    github: "",
+    link: "",
   },
 ]
 

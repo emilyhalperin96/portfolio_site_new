@@ -2,17 +2,19 @@ import React from "react"
 import Image from "next/image"
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
   { skill: "Python" },
+  { skill: "Flask" },
+  { skill: "SQL" },
   { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
+  { skill: "Javascript" },
+  { skill: "AWS" },
+  { skill: "Jira" },
+  { skill: "Looker" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
+  { skill: "Salesforce" },
+  { skill: 'Postman'},
+  { skill: 'Docker'},
 ]
 
 const AboutSection = () => {
@@ -30,39 +32,36 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
+              Hi, my name is Emily and I am a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
               <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              based in NYC.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+            I’m a graduate of Flatiron School’s Software Engineering program, where I gained comprehensive knowledge and practical skills in web development. Prior to that, I worked in tech for 5 years and studied Communications at the University of Michigan, with a certificate in Sales & Marketing from the Ross School of Business.
             </p>
             <br />
             <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
+             
+In addition to my technical proficiency, I bring previous experience that sets me apart. I spent most of my career at Braze, a customer engagement software. I worked closely with our technical customers to enhance their utilization of our software, and this gave me a deep understanding of customer needs and the key business outcomes they drove with their tech stack.
+
             </p>
             <br />
             <p>
-              I believe that you should{" "}
-              <span className="font-bold text-teal-500">
-                never stop growing
-              </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+            Following my time at Braze, I was the sole product manager at a B2C travel start-up. I owned the development of various features by conducting industry research, identifying customer pain points, scoping out features, defining product requirements, and bringing the final product to market.
+            </p>
+            <br />
+
+            <p>
+
+            Combining my technical expertise from the Flatiron School with my previous experience in tech, I will bring a unique perspective to any software engineering role. My strong focus on creating user-centric solutions enables me to effectively translate customer requirements into tangible products. 
+
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
-            <h1 className="text-2xl font-bold mb-6">My Skills</h1>
+            <h1 className="text-1xl font-bold mb-6">My Skills</h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
               {skills.map((item, idx) => {
                 return (
@@ -75,13 +74,6 @@ const AboutSection = () => {
                 )
               })}
             </div>
-            <Image
-              src="/hero-image.png"
-              alt=""
-              width={325}
-              height={325}
-              className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
-            />
           </div>
         </div>
       </div>
