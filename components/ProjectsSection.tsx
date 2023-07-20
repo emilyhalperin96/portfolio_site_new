@@ -9,22 +9,22 @@ const projects = [
     name: "Halpreads Book Application",
     description:
       "Halpreads is a web application developed in React and Python to help people find their next book and keep track of their reading list.",
-    image: "/thankfulthoughts.png",
+    image: "/halpreads.png",
     github: "",
-    link: "",
+    link: "https://www.youtube.com/watch?v=7oWnfWtQBho",
   },
   {
     name: "Word Searcher 3000",
     description: "Word Searcher 3000 is a Python-based command line word search game. It uses SQLAlchemy and a matrix data structure.",
-    image: "/platoio.png",
+    image: "/wordsearch.png",
     github: "",
-    link: "",
+    link: "https://www.youtube.com/watch?v=HOFZCCAaE_c",
   },
   {
     name: "Daily News Digest",
     description:
       "This python application uses a Daily News API to pull news articles and send them via email, daily.",
-    image: "/familyphotos.png",
+    image: "/dailynewsemail.png",
     github: "https://github.com/emilyhalperin96/daily_news_digest",
     link: "",
   },
@@ -32,7 +32,7 @@ const projects = [
     name: "Invoice Generator",
     description:
       "This python application takes excel files and generates them into invoices as PDFs.",
-    image: "/familyphotos.png",
+    image: "/invoicepdf.png",
     github: "https://github.com/emilyhalperin96/generate_invoices",
     link: ' ',
   },

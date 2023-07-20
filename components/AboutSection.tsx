@@ -31,13 +31,6 @@ const AboutSection = () => {
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
               Get to know me!
             </h1>
-            <p>
-              Hi, my name is Emily and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in NYC.
-            </p>
             <br />
             <p>
             I’m a graduate of Flatiron School’s Software Engineering program, where I gained comprehensive knowledge and practical skills in web development. Prior to that, I worked in tech for 5 years and studied Communications at the University of Michigan, with a certificate in Sales & Marketing from the Ross School of Business.
