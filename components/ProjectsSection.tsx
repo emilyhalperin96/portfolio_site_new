@@ -26,13 +26,15 @@ const projects = [
       "This python application uses a Daily News API to pull news articles and send them via email, daily.",
     image: "/familyphotos.png",
     github: "https://github.com/emilyhalperin96/daily_news_digest",
+    link: "",
   },
   {
-    name: "Daily News Digest",
+    name: "Invoice Generator",
     description:
       "This python application takes excel files and generates them into invoices as PDFs.",
     image: "/familyphotos.png",
     github: "https://github.com/emilyhalperin96/generate_invoices",
+    link: ' ',
   },
 
 ]
