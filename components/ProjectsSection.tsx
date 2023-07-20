@@ -21,13 +21,20 @@ const projects = [
     link: "",
   },
   {
-    name: "Empty",
+    name: "Daily News Digest",
     description:
-      "Empty",
+      "This python application uses a Daily News API to pull news articles and send them via email, daily.",
     image: "/familyphotos.png",
-    github: "",
-    link: "",
+    github: "https://github.com/emilyhalperin96/daily_news_digest",
   },
+  {
+    name: "Daily News Digest",
+    description:
+      "This python application takes excel files and generates them into invoices as PDFs.",
+    image: "/familyphotos.png",
+    github: "https://github.com/emilyhalperin96/generate_invoices",
+  },
+
 ]
 
 const ProjectsSection = () => {
