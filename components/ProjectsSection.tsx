@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState} from "react"
 import Image from "next/image"
 import Link from "next/link"
 import SlideUp from "./SlideUp"
@@ -44,19 +44,27 @@ const projects = [
     github: "https://github.com/emilyhalperin96/weather_forecast_app",
     link: ' ',
   },
+  {
+    name: "Book Language Processing",
+    description:
+      "This python application uses regex and the nltk library to analyze a book in a text file. This analysis includes most frequently used words, and a sentiment score for each chapter.",
+    image: "/language.png",
+    github: "https://github.com/emilyhalperin96/book_language_processing",
+    link: ' ',
+  },
 
 
 
 ]
 
 const ProjectsSection = () => {
+
   return (
     <section id="projects">
       <h1 className="my-10 text-center font-bold text-4xl">
         Projects
         <hr className="w-6 h-1 mx-auto my-4 bg-[#c084fc] border-0 rounded"></hr>
       </h1>
-
       <div className="flex flex-col space-y-28">
         {projects.map((project, idx) => {
           return (
