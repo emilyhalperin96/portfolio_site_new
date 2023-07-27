@@ -36,6 +36,16 @@ const projects = [
     github: "https://github.com/emilyhalperin96/generate_invoices",
     link: ' ',
   },
+  {
+    name: "Weather Forecast App",
+    description:
+      "This python application uses a weather forecasting API to get the weather forecast for a given city. It includes data visualizations.",
+    image: "/weatherapi.png",
+    github: "https://github.com/emilyhalperin96/weather_forecast_app",
+    link: ' ',
+  },
+
+
 
 ]
 
