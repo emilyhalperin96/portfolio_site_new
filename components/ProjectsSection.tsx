@@ -52,6 +52,14 @@ const projects = [
     github: "https://github.com/emilyhalperin96/book_language_processing",
     link: ' ',
   },
+  {
+    name: "Webcam Detector",
+    description:
+      "This python application connects to your laptops Webcam to detect movement. When movement is detected, it generates an email to send an alert.",
+    image: "/webcam.png",
+    github: "https://github.com/emilyhalperin96/webcam_detector",
+    link: ' ',
+  },
 
 
 
