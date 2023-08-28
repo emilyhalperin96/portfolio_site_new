@@ -55,12 +55,19 @@ const projects = [
   {
     name: "Webcam Detector",
     description:
-      "This python application connects to your laptops Webcam to detect movement. When movement is detected, it generates an email to send an alert.",
+      "This python application connects to your laptop's webcam to detect movement. When movement is detected, it generates an email to send an alert.",
     image: "/webcam.png",
     github: "https://github.com/emilyhalperin96/webcam_detector",
     link: ' ',
   },
-
+  {
+    name: "OpenAI Chatbot",
+    description:
+      "This python application uses the openAI API to create a chatbot.",
+    image: "/chatbot.png",
+    github: "https://github.com/emilyhalperin96/chat_bot",
+    link: 'https://youtu.be/5hHVHxpIZbk',
+  },
 
 
 ]
