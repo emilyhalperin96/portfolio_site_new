@@ -68,6 +68,14 @@ const projects = [
     github: "https://github.com/emilyhalperin96/chat_bot",
     link: 'https://youtu.be/5hHVHxpIZbk',
   },
+  {
+    name: "Restaurant Web App",
+    description:
+      "This application is built with Django and Python. It allows customers to scan a QR code to access the menu, and includes an admin dashboard to manage inventory.",
+    image: "/restaurant.png",
+    github: "https://github.com/emilyhalperin96/restaurant_web_app",
+    link: 'https://youtu.be/j6evx79VXVw',
+  },
 
 
 ]
