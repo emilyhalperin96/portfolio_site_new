@@ -69,6 +69,15 @@ const projects = [
     link: 'https://youtu.be/5hHVHxpIZbk',
   },
   {
+    name: "GPT Clone",
+    description:
+      "This application is built with React Node.js. It's a clone of Chat GPT build with OpenAI.",
+    image: "/gptclone.png",
+    github: "https://github.com/emilyhalperin96/gpt_clone",
+    link: 'https://youtu.be/lbuRi-N5kvQ',
+  },
+
+  {
     name: "Restaurant Web App",
     description:
       "This application is built with Django and Python. It allows customers to scan a QR code to access the menu, and includes an admin dashboard to manage inventory.",
@@ -76,6 +85,9 @@ const projects = [
     github: "https://github.com/emilyhalperin96/restaurant_web_app",
     link: 'https://youtu.be/j6evx79VXVw',
   },
+  
+
+
 
 
 ]
